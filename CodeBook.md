@@ -35,26 +35,26 @@ These are the first two columns which are used for the summary grouping:
 
 The following features are a renamed subset of the original features. Note that the values for these features are the means of the original mean and standard deviation measures grouped by Subject\_ID and Activity\_ID:
 
-1. Mean_Time\_Body\_Accel\_Mean\_X
-2. Mean_Time\_Body\_Accel\_Mean\_Y
-3. Mean_Time\_Body\_Accel\_Mean\_Z
-4. Mean_Time\_Body\_Accel\_StdDev\_X
-5. Mean_Time\_Body\_Accel\_StdDev\_Y
-6. Mean_Time\_Body\_Accel\_StdDev\_Z
-7. Mean_Time\_Gravity\_Accel\_Mean\_X
-8. Mean_Time\_Gravity\_Accel\_Mean\_Y
-9. Mean_Time\_Gravity\_Accel\_Mean\_Z
-10. Mean_Time\_Gravity\_Accel\_StdDev\_X
-11. Mean_Time\_Gravity\_Accel\_StdDev\_Y
-12. Mean_Time\_Gravity\_Accel\_StdDev\_Z
-13. Mean_Time\_Body\_Accel\_Jerk\_Mean\_X
-14. Mean_Time\_Body\_Accel\_Jerk\_Mean\_Y
-15. Mean_Time\_Body\_Accel\_Jerk\_Mean\_Z
-16. Mean_Time\_Body\_Accel\_Jerk\_StdDev\_X
-17. Mean_Time\_Body\_Accel\_Jerk\_StdDev\_Y
-18. Mean_Time\_Body\_Accel\_Jerk\_StdDev\_Z
-19. Mean_Time\_Body\_Gyro\_Mean\_X
-20. Mean_Time\_Body\_Gyro\_Mean\_Y
+1. Mean\_Time\_Body\_Accel\_Mean\_X
+2. Mean\_Time\_Body\_Accel\_Mean\_Y
+3. Mean\_Time\_Body\_Accel\_Mean\_Z
+4. Mean\_Time\_Body\_Accel\_StdDev\_X
+5. Mean\_Time\_Body\_Accel\_StdDev\_Y
+6. Mean\_Time\_Body\_Accel\_StdDev\_Z
+7. Mean\_Time\_Gravity\_Accel\_Mean\_X
+8. Mean\_Time\_Gravity\_Accel\_Mean\_Y
+9. Mean\_Time\_Gravity\_Accel\_Mean\_Z
+10. Mean\_Time\_Gravity\_Accel\_StdDev\_X
+11. Mean\_Time\_Gravity\_Accel\_StdDev\_Y
+12. Mean\_Time\_Gravity\_Accel\_StdDev\_Z
+13. Mean\_Time\_Body\_Accel\_Jerk\_Mean\_X
+14. Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Y
+15. Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Z
+16. Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_X
+17. Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Y
+18. Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Z
+19. Mean\_Time\_Body\_Gyro\_Mean\_X
+20. Mean\_Time\_Body\_Gyro\_Mean\_Y
 21. Mean_Time\_Body\_Gyro\_Mean\_Z
 22. Mean_Time\_Body\_Gyro\_StdDev\_X
 23. Mean_Time\_Body\_Gyro\_StdDev\_Y
