@@ -95,7 +95,7 @@ After obtaining the subset of names from the original feature list, the feature 
 * changing acc to accel to better indicate that the measure is an accelerometer measure
 * changing std to StdDev to better indicate that the measure is a standard deviation
 * changing mag to Magnitude to indicate that the measure is a magnitude measure
-* changing bodybody to Body to remove an unneccesary duplicated term
+* changing BodyBody to Body to remove an unneccesary duplicated term
 * replacing all dashes with underscores to ensure the names are legal for R 
 * prefixing all measures with Mean since the final tidy data set is a mean of the means and standard deviations   
 
