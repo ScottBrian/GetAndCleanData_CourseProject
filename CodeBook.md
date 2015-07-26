@@ -170,18 +170,18 @@ num | name                                                | description
 59  | Mean\_Freq\_Body\_Gyro\_Mean\_X                     | mean of FFT frequency for body gyroscope mean for x axis
 60  | Mean\_Freq\_Body\_Gyro\_Mean\_Y                     | mean of FFT frequency for body gyroscope mean for y axis
 61  | Mean\_Freq\_Body\_Gyro\_Mean\_Z                     | mean of FFT frequency for body gyroscope mean for z axis
-62  | Mean\_Freq\_Body\_Gyro\_StdDev\_X                   | mean of FFT frequency for
-63  | Mean\_Freq\_Body\_Gyro\_StdDev\_Y                   | mean of FFT frequency for
-64  | Mean\_Freq\_Body\_Gyro\_StdDev\_Z                   | mean of FFT frequency for
-65  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_X                 | mean of FFT frequency for
-66  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Y                 | mean of FFT frequency for
-67  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Z                 | mean of FFT frequency for
-68  | Mean\_Freq\_Body\_Accel\_Magnitude\_Mean            | mean of FFT frequency for 
-69  | Mean\_Freq\_Body\_Accel\_Magnitude\_StdDev          | mean of FFT frequency for
-70  | Mean\_Freq\_Body\_Accel\_Magnitude\_MeanFreq        | mean of FFT frequency for    
-71  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of FFT frequency for
-72  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of FFT frequency for
-73  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_MeanFreq  | mean of FFT frequency for 
+62  | Mean\_Freq\_Body\_Gyro\_StdDev\_X                   | mean of FFT frequency for body gyroscope std dev for x axis
+63  | Mean\_Freq\_Body\_Gyro\_StdDev\_Y                   | mean of FFT frequency for body gyroscope std dev for y axis
+64  | Mean\_Freq\_Body\_Gyro\_StdDev\_Z                   | mean of FFT frequency for body gyroscope std dev for z axis
+65  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_X                 | mean of FFT frequency for body gyroscope mean frequency for x axis
+66  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Y                 | mean of FFT frequency for body gyroscope mean frequency for y axis
+67  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Z                 | mean of FFT frequency for body gyroscope mean frequency for z axis
+68  | Mean\_Freq\_Body\_Accel\_Magnitude\_Mean            | mean of FFT frequency for body accelerometer magnitude mean 
+69  | Mean\_Freq\_Body\_Accel\_Magnitude\_StdDev          | mean of FFT frequency for body accelerometer magnitude std dev 
+70  | Mean\_Freq\_Body\_Accel\_Magnitude\_MeanFreq        | mean of FFT frequency for body accelerometer magnitude mean frequency     
+71  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of FFT frequency for body accelerometer jerk magnitude mean 
+72  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of FFT frequency for body accelerometer jerk magnitude std dev 
+73  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_MeanFreq  | mean of FFT frequency for body accelerometer jerk magnitude mean frequency   
 74  | Mean\_Freq\_Body\_Gyro\_Magnitude\_Mean             | mean of FFT frequency for
 75  | Mean\_Freq\_Body\_Gyro\_Magnitude\_StdDev           | mean of FFT frequency for
 76  | Mean\_Freq\_Body\_Gyro\_Magnitude\_MeanFreq         | mean of FFT frequency for
