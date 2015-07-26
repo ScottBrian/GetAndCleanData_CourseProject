@@ -1,14 +1,22 @@
 # GetAndCleanData_CourseProject
 This Repo contains my course project for the Johns Hopkins University MOOC "Getting and Cleaning Data"
 
-This README file describes the course project for the Johns Hopkins University MOOC "Getting and Cleaning Data". The project consist of starting with a provided data sets with several files, combining those files, and producing a tidy set set. 
+This README file describes the course project for the Johns Hopkins University MOOC "Getting and Cleaning Data". The project consist of starting with a provided data set with several files, combining those files, and producing a tidy set set. 
 
-The various files included are:
-1. README.md - this file  
+The tidy data set is linked to from the project assignment page. 
+The files included in the repo are:
+1. README.md - this file
 2. run_analysis.R - the script that produced the tidy data set   
 3. CodeBook.md - decribes the variables in the tidy data set  
 
 ## Tidy Data Set
+Note that the TidyDataSet linked to from the assignment page is unformatted and difficult to understand its structure. In order to see it in its proper format, please copy the url and use the following code is R:
+
+fileUrl <- "the url for TidyDataSet on Amazon"
+download.file(fileUrl, destfile = "./theTidyDS")
+TidyDS <- read.table("./theTidyDS",header=TRUE)
+head(TidyDS,8) # comes out very nicely formated
+
 The tidy data set is a wide format data frame with 180 rows and 81 columns. The columns, or features, are described in the CodeBook.md. The data frame itself is submitted in the assignment as a link to a text file that must be read into R using read.table in order to view it properly formatted. The wide format tidy data set satisfies the tidy data set requirments because:
 1. each variable that is measured is in one column   
 2. each column is named with a meaning and descriptive name   
