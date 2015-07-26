@@ -107,7 +107,7 @@ The first two columns which are used for the summary grouping:
 
 The following features are a renamed subset of the original features. Note that the values for these features are the means of the original mean and standard deviation measures grouped by Subject\_ID and Activity\_ID:
 
-col | name                                                | description
+column | name                                                | description
 ----|-----------------------------------------------------|------------------------------------
 3   | Mean\_Time\_Body\_Accel\_Mean\_X                    | mean of time for body accelerometer mean for x axis
 4   | Mean\_Time\_Body\_Accel\_Mean\_Y                    | mean of time for body accelerometer mean for y axis
