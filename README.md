@@ -54,12 +54,10 @@ Note that in order to run the run_analysis.R script, the following must be done:
    must be placed in the working directory where the run_analysis.R script will be run.  
 
 Also, the following packages are required (you will need to install them from https://cran.r-project.org/ if you do not yet have them installed on your system):
-<ol>
-<li> data.table
-<li> library(plyr)
-<li> library(dplyr)
-<eol>
-
+* data.table
+* plyr
+* dplyr  
+   
 The run_analysis.R code was developed on R version 3.2.0. It is not known at this time whether it will run compatibly on any other version. It is therefore recommended to run the code on R at version 3.2.0. 
   
 ## Acknowledgements  
