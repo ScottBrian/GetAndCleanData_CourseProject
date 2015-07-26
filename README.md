@@ -45,12 +45,25 @@ After reading in the files, the run_analysis.R script performs the following:
    by mean to create the tidy data table, and then sort it by Subject_ID and Activity_ID    
 6. Return the tidy data set.    
 
+## Requirements to run run_analysis.R
+
 Note that in order to run the run_analysis.R script, the following must be done:  
 1. The Human Activity data set must be obtained from the following web address:   
        https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 2. After downloading the zip file, it must be unzipped and the top level folder "UCI HAR Dataset"  
    must be placed in the working directory where the run_analysis.R script will be run.  
 
+Also, the following packages are required (you will need to install them from https://cran.r-project.org/ if you do not yet have them installed on your system):
+<ol>
+<li> data.table
+<li> library(plyr)
+<li> library(dplyr)
+<eol>
+
+The run_analysis.R code was developed on R version 3.2.0. It is not known at this time whether it will run compatibly on any other version. It is therefore recommended to run the code on R at version 3.2.0. 
+  
+## Acknowledgements  
+ 
 Use of this dataset in publications must be acknowledged by referencing the following publication [1]   
  
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition  
