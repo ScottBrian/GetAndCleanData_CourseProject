@@ -10,9 +10,9 @@ The various files included are:
 
 ## Tidy Data Set
 The tidy data set is a wide format data frame with 180 rows and 81 columns. The columns, or features, are described in the CodeBook.md. The data frame itself is submitted in the assignment as a link to a text file that must be read into R using read.table in order to view it properly formatted. The wide format tidy data set satisfies the tidy data set requirments because:
-1. each variable that is measured is in one column 
-2. each column is named with a meaning and descriptive name 
-3. each different observation is in a different row - note that each single observation is considered to be the set of movement measurments for one subject doing one activity
+1. each variable that is measured is in one column   
+2. each column is named with a meaning and descriptive name   
+3. each different observation is in a different row - note that each single observation is considered to be the set of movement measurments for one subject doing one activity  
 
 ## run_analysis.R
 
