@@ -109,82 +109,82 @@ The following features are a renamed subset of the original features. Note that 
 
 num | name                                                | description
 ----|-----------------------------------------------------|------------------------------------
-1   | Mean\_Time\_Body\_Accel\_Mean\_X                    | mean time of body accelerometer mean for x axis
-2   | Mean\_Time\_Body\_Accel\_Mean\_Y                    | mean time of body accelerometer mean for y axis
-3   | Mean\_Time\_Body\_Accel\_Mean\_Z                    | mean time of body accelerometer mean for z axis 
-4   | Mean\_Time\_Body\_Accel\_StdDev\_X                  | mean time of body accelerometer std dev for x axis  
-5   | Mean\_Time\_Body\_Accel\_StdDev\_Y                  | mean time of body accelerometer std dev for y axis
-6   | Mean\_Time\_Body\_Accel\_StdDev\_Z                  | mean time of body accelerometer std dev for z axis
-7   | Mean\_Time\_Gravity\_Accel\_Mean\_X                 | mean time of gravity accelerometer mean for x axis
-8   | Mean\_Time\_Gravity\_Accel\_Mean\_Y                 | mean time of gravity accelerometer mean for y axis
-9   | Mean\_Time\_Gravity\_Accel\_Mean\_Z                 | mean time of gravity accelerometer mean for z axis
-10  | Mean\_Time\_Gravity\_Accel\_StdDev\_X               |
-11  | Mean\_Time\_Gravity\_Accel\_StdDev\_Y               | 
-12  | Mean\_Time\_Gravity\_Accel\_StdDev\_Z               |
-13  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_X              |
-14  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Y              |
-15  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Z              |
-16  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_X            |
-17  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Y            |
-18  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Z            |
-19  | Mean\_Time\_Body\_Gyro\_Mean\_X                     | 
-20  | Mean\_Time\_Body\_Gyro\_Mean\_Y                     |
-21  | Mean\_Time\_Body\_Gyro\_Mean\_Z                     |
-22  | Mean\_Time\_Body\_Gyro\_StdDev\_X                   | 
-23  | Mean\_Time\_Body\_Gyro\_StdDev\_Y                   |
-24  | Mean\_Time\_Body\_Gyro\_StdDev\_Z                   |
-25  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_X               | 
-26  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Y               |
-27  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Z               | 
-28  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_X             |
-29  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Y             |  
-30  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Z             |
-31  | Mean\_Time\_Body\_Accel\_Magnitude\_Mean            | 
-32  | Mean\_Time\_Body\_Accel\_Magnitude\_StdDev          | 
-33  | Mean\_Time\_Gravity\_Accel\_Magnitude\_Mean         |
-34  | Mean\_Time\_Gravity\_Accel\_Magnitude\_StdDev       | 
-35  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_Mean      |
-36  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | 
-37  | Mean\_Time\_Body\_Gyro\_Magnitude\_Mean             |   
-38  | Mean\_Time\_Body\_Gyro\_Magnitude\_StdDev           |
-39  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_Mean       |
-40  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | 
-41  | Mean\_Freq\_Body\_Accel\_Mean\_X                    | 
-42  | Mean\_Freq\_Body\_Accel\_Mean\_Y                    |
-43  | Mean\_Freq\_Body\_Accel\_Mean\_Z                    |
-44  | Mean\_Freq\_Body\_Accel\_StdDev\_X                  |
-45  | Mean\_Freq\_Body\_Accel\_StdDev\_Y                  | 
-46  | Mean\_Freq\_Body\_Accel\_StdDev\_Z                  | 
-47  | Mean\_Freq\_Body\_Accel\_MeanFreq\_X                |
-48  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Y                |
-49  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Z                | 
-50  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_X              |
-51  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Y              | 
-52  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Z              | 
-53  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_X            | 
-54  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Y            | 
-55  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Z            |
-56  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_X          |
-57  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Y          |  
-58  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Z          |
-59  | Mean\_Freq\_Body\_Gyro\_Mean\_X                     | 
-60  | Mean\_Freq\_Body\_Gyro\_Mean\_Y                     |
-61  | Mean\_Freq\_Body\_Gyro\_Mean\_Z                     |
-62  | Mean\_Freq\_Body\_Gyro\_StdDev\_X                   | 
-63  | Mean\_Freq\_Body\_Gyro\_StdDev\_Y                   |
-64  | Mean\_Freq\_Body\_Gyro\_StdDev\_Z                   | 
-65  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_X                 | 
-66  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Y                 |
-67  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Z                 | 
-68  | Mean\_Freq\_Body\_Accel\_Magnitude\_Mean            |  
-69  | Mean\_Freq\_Body\_Accel\_Magnitude\_StdDev          | 
-70  | Mean\_Freq\_Body\_Accel\_Magnitude\_MeanFreq        |    
-71  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_Mean      |
-72  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | 
-73  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_MeanFreq  |  
-74  | Mean\_Freq\_Body\_Gyro\_Magnitude\_Mean             |
-75  | Mean\_Freq\_Body\_Gyro\_Magnitude\_StdDev           |
-76  | Mean\_Freq\_Body\_Gyro\_Magnitude\_MeanFreq         | 
-77  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_Mean       |
-78  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     |
-79  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_MeanFreq   |
+1   | Mean\_Time\_Body\_Accel\_Mean\_X                    | mean of time for body accelerometer mean for x axis
+2   | Mean\_Time\_Body\_Accel\_Mean\_Y                    | mean of time for body accelerometer mean for y axis
+3   | Mean\_Time\_Body\_Accel\_Mean\_Z                    | mean of time for body accelerometer mean for z axis 
+4   | Mean\_Time\_Body\_Accel\_StdDev\_X                  | mean of time for body accelerometer std dev for x axis  
+5   | Mean\_Time\_Body\_Accel\_StdDev\_Y                  | mean of time for body accelerometer std dev for y axis
+6   | Mean\_Time\_Body\_Accel\_StdDev\_Z                  | mean of time for body accelerometer std dev for z axis
+7   | Mean\_Time\_Gravity\_Accel\_Mean\_X                 | mean of time for gravity accelerometer mean for x axis
+8   | Mean\_Time\_Gravity\_Accel\_Mean\_Y                 | mean of time for gravity accelerometer mean for y axis
+9   | Mean\_Time\_Gravity\_Accel\_Mean\_Z                 | mean of time for gravity accelerometer mean for z axis
+10  | Mean\_Time\_Gravity\_Accel\_StdDev\_X               | mean of time for gravity accelerometer std dev for x axis
+11  | Mean\_Time\_Gravity\_Accel\_StdDev\_Y               | mean of time for gravity accelerometer std dev for y axis 
+12  | Mean\_Time\_Gravity\_Accel\_StdDev\_Z               | mean of time for gravity accelerometer std dev for z axis
+13  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_X              | mean of time for
+14  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Y              | mean of time for
+15  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Z              | mean of time for
+16  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_X            | mean of time for
+17  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of time for
+18  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of time for
+19  | Mean\_Time\_Body\_Gyro\_Mean\_X                     | mean of time for
+20  | Mean\_Time\_Body\_Gyro\_Mean\_Y                     | mean of time for
+21  | Mean\_Time\_Body\_Gyro\_Mean\_Z                     | mean of time for
+22  | Mean\_Time\_Body\_Gyro\_StdDev\_X                   | mean of time for
+23  | Mean\_Time\_Body\_Gyro\_StdDev\_Y                   | mean of time for
+24  | Mean\_Time\_Body\_Gyro\_StdDev\_Z                   | mean of time for
+25  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_X               | mean of time for
+26  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Y               | mean of time for
+27  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Z               | mean of time for
+28  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_X             | mean of time for
+29  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Y             | mean of time for 
+30  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Z             | mean of time for
+31  | Mean\_Time\_Body\_Accel\_Magnitude\_Mean            | mean of time for
+32  | Mean\_Time\_Body\_Accel\_Magnitude\_StdDev          | mean of time for
+33  | Mean\_Time\_Gravity\_Accel\_Magnitude\_Mean         | mean of time for
+34  | Mean\_Time\_Gravity\_Accel\_Magnitude\_StdDev       | mean of time for
+35  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of time for
+36  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of time for
+37  | Mean\_Time\_Body\_Gyro\_Magnitude\_Mean             | mean of time for   
+38  | Mean\_Time\_Body\_Gyro\_Magnitude\_StdDev           | mean of time for
+39  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of time for
+40  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of time for
+41  | Mean\_Freq\_Body\_Accel\_Mean\_X                    | mean of FFT frequency for
+42  | Mean\_Freq\_Body\_Accel\_Mean\_Y                    | mean of FFT frequency for
+43  | Mean\_Freq\_Body\_Accel\_Mean\_Z                    | mean of FFT frequency for
+44  | Mean\_Freq\_Body\_Accel\_StdDev\_X                  | mean of FFT frequency for
+45  | Mean\_Freq\_Body\_Accel\_StdDev\_Y                  | mean of FFT frequency for
+46  | Mean\_Freq\_Body\_Accel\_StdDev\_Z                  | mean of FFT frequency for
+47  | Mean\_Freq\_Body\_Accel\_MeanFreq\_X                | mean of FFT frequency for
+48  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Y                | mean of FFT frequency for
+49  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Z                | mean of FFT frequency for
+50  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_X              | mean of FFT frequency for
+51  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Y              | mean of FFT frequency for
+52  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Z              | mean of FFT frequency for
+53  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_X            | mean of FFT frequency for
+54  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of FFT frequency for
+55  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of FFT frequency for
+56  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_X          | mean of FFT frequency for
+57  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Y          | mean of FFT frequency for 
+58  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Z          | mean of FFT frequency for
+59  | Mean\_Freq\_Body\_Gyro\_Mean\_X                     | mean of FFT frequency for
+60  | Mean\_Freq\_Body\_Gyro\_Mean\_Y                     | mean of FFT frequency for
+61  | Mean\_Freq\_Body\_Gyro\_Mean\_Z                     | mean of FFT frequency for
+62  | Mean\_Freq\_Body\_Gyro\_StdDev\_X                   | mean of FFT frequency for
+63  | Mean\_Freq\_Body\_Gyro\_StdDev\_Y                   | mean of FFT frequency for
+64  | Mean\_Freq\_Body\_Gyro\_StdDev\_Z                   | mean of FFT frequency for
+65  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_X                 | mean of FFT frequency for
+66  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Y                 | mean of FFT frequency for
+67  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Z                 | mean of FFT frequency for
+68  | Mean\_Freq\_Body\_Accel\_Magnitude\_Mean            | mean of FFT frequency for 
+69  | Mean\_Freq\_Body\_Accel\_Magnitude\_StdDev          | mean of FFT frequency for
+70  | Mean\_Freq\_Body\_Accel\_Magnitude\_MeanFreq        | mean of FFT frequency for    
+71  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of FFT frequency for
+72  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of FFT frequency for
+73  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_MeanFreq  | mean of FFT frequency for 
+74  | Mean\_Freq\_Body\_Gyro\_Magnitude\_Mean             | mean of FFT frequency for
+75  | Mean\_Freq\_Body\_Gyro\_Magnitude\_StdDev           | mean of FFT frequency for
+76  | Mean\_Freq\_Body\_Gyro\_Magnitude\_MeanFreq         | mean of FFT frequency for
+77  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of FFT frequency for
+78  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of FFT frequency for
+79  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_MeanFreq   | mean of FFT frequency for
