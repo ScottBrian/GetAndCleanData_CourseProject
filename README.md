@@ -3,11 +3,11 @@ This Repo contains my course project for the Johns Hopkins University MOOC "Gett
 
 This README file describes the course project for the Johns Hopkins University MOOC "Getting and Cleaning Data". The project consist of starting with a provided data set with several files, combining those files, and producing a tidy set set. 
 
-The tidy data set is linked to from the project assignment page. 
-The files included in the repo are:
-1. README.md - this file
-2. run_analysis.R - the script that produced the tidy data set   
-3. CodeBook.md - decribes the variables in the tidy data set  
+The tidy data set is linked to from the project assignment page.   
+The files included in the repo are:  
+1. README.md - this file  
+2. run_analysis.R - the script that produced the tidy data set     
+3. CodeBook.md - decribes the variables in the tidy data set    
 
 ## Tidy Data Set
 Note that the TidyDataSet linked to from the assignment page is unformatted and difficult to understand its structure. In order to see it in its proper format, please copy the url and use the following code is R:
