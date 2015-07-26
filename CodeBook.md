@@ -107,7 +107,8 @@ The first two columns are used for the summary grouping:
 <li> 5 STANDING
 <li> 6 LAYING
 <eul>
-<eol>  
+<eol>      
+
   
 The following features are a renamed subset of the original features. Note that the values for these features are the means of the original mean and standard deviation measures grouped by Subject\_ID and Activity\_ID:
 
