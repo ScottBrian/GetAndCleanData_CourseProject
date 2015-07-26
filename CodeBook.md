@@ -96,15 +96,16 @@ The following features (columns) make up the tidy data set:
 
 The first two columns are used for the summary grouping:
 
-- column 1:  Subject\_ID - integer value that uniquley identifies the subject whose movements were measured
-- column 2:  Activity\_ID - ineger value as factored variable that identifies the specific activity the subject engaged in. The activity values and names are:
+<ol>
+<li> column 1:  Subject\_ID - integer value that uniquley identifies the subject whose movements were measured
+<li> column 2:  Activity\_ID - ineger value as factored variable that identifies the specific activity the subject engaged in. The activity values and names are:
 + 1 WALKING
 + 2 WALKING\_UPSTAIRS
 + 3 WALKING\_DOWNSTAIRS
 + 4 SITTING
 + 5 STANDING
 + 6 LAYING
-
+<eol>
 The following features are a renamed subset of the original features. Note that the values for these features are the means of the original mean and standard deviation measures grouped by Subject\_ID and Activity\_ID:
 
 column | name                                                | description
