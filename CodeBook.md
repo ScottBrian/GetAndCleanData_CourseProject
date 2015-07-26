@@ -85,11 +85,11 @@ For the tidy data set, the subset of features were obtained from the source data
 * angle(Y,gravityMean)
 * angle(Z,gravityMean)
 
-After obtaining the subset of names from the original feature list, the feature names were renamed to make them more readable. The test and train data sets from the orginal data set were merged in a data table and consist of only those columns for the aformentioned subset of features. The subject ID and activity ID data sets were also added to the merged data table. Next, the merged data table was grouped by both Subject ID and Activity ID, and then summarizewas done to get the mean of the features for each Subject ID and Activity ID combination, a for a total of 180 observation across 79 features (variables). It is this summarized data frame that is the tidy data set provided for the course project.
+After obtaining the subset of names from the original feature list, the feature names were renamed to make them more readable. The test and train data sets from the orginal data set were merged in a data table and consist of only those columns for the aformentioned subset of features. The subject ID and activity ID data sets were also added to the merged data table. Next, the merged data table was grouped by both Subject ID and Activity ID, and then summarized using summarise_each with FUN(mean) to get the mean of the features for each Subject ID and Activity ID combination, for a total of 180 observation across 79 features (columns). It is this summarized data frame that is the tidy data set (TidyDataSet) provided for the course project. Note that by summarizing the original mean and standard deviation values by Subject_ID and Activity_ID, the resulting values are actually means of means and means of standard deviations. All of the columns names of the TidyDataSet are thus prefixed with "Mean_" to emphasize this fact that we have means of means and means of standard deviations.     
 
-The following features (variables) make up the tidy data set:
+The following features (columns) make up the tidy data set:
 
-These are the first two columns which are used for the summary grouping:
+The first two columns which are used for the summary grouping:
 
 -   Subject\_ID - integer value that uniquley identifies the subject whose movements were measured
 -   Activity\_ID - ineger value as factored variable that identifies the specific activity the subject engaged in. The activity values and names are:
