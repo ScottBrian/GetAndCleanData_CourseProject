@@ -97,7 +97,7 @@ After obtaining the subset of names from the original feature list, the feature 
 * replacing all dashes with underscores to ensure the names are legal for R 
 * prefixing all measures with Mean since the final tidy data set is a mean of the means and standard deviations   
 
-## combining the test and train files
+## combining, grouping, and summarizing the test and train files
 
 The test and train data sets from the orginal data set were merged in a data table and consist of only those columns for the aformentioned subset of features. The subject ID and activity ID data sets were also added to the merged data table. Next, the merged data table was grouped by both Subject ID and Activity ID, and then summarized using summarise_each with FUN(mean) to get the mean of the features for each Subject ID and Activity ID combination, for a total of 180 observation across 79 features (columns). It is this summarized data frame that is the tidy data set (TidyDataSet) provided for the course project. Note that by summarizing the original mean and standard deviation values by Subject_ID and Activity_ID, the resulting values are actually means of means and means of standard deviations. All of the columns names of the TidyDataSet measures are thus prefixed with "Mean_" to emphasize this fact that we have means of means and means of standard deviations.     
 
