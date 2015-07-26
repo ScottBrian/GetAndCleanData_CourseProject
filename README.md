@@ -12,10 +12,10 @@ The files included in the repo are:
 ## Tidy Data Set
 Note that the TidyDataSet linked to from the assignment page is unformatted and difficult to understand. To see it properly formatted, please copy the url and use the following code is R:
 
-fileUrl <- "the url for TidyDataSet on Amazon"
-download.file(fileUrl, destfile = "./theTidyDS")
-TidyDS <- read.table("./theTidyDS",header=TRUE)
-head(TidyDS,8) # first 8 rows properly formated
+fileUrl <- "the url for TidyDataSet on Amazon"  
+download.file(fileUrl, destfile = "./theTidyDS")  
+TidyDS <- read.table("./theTidyDS",header=TRUE)  
+head(TidyDS,8) # first 8 rows properly formated  
 
 The tidy data set is a wide format data frame with 180 rows and 81 columns. The columns (features), are described in the CodeBook.md. The wide format tidy data set satisfies the tidy data set requirments because:
 1. each variable that is measured is in one column     
