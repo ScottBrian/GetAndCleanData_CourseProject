@@ -182,9 +182,9 @@ num | name                                                | description
 71  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of FFT frequency for body accelerometer jerk magnitude mean 
 72  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of FFT frequency for body accelerometer jerk magnitude std dev 
 73  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_MeanFreq  | mean of FFT frequency for body accelerometer jerk magnitude mean frequency   
-74  | Mean\_Freq\_Body\_Gyro\_Magnitude\_Mean             | mean of FFT frequency for
-75  | Mean\_Freq\_Body\_Gyro\_Magnitude\_StdDev           | mean of FFT frequency for
-76  | Mean\_Freq\_Body\_Gyro\_Magnitude\_MeanFreq         | mean of FFT frequency for
-77  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of FFT frequency for
-78  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of FFT frequency for
-79  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_MeanFreq   | mean of FFT frequency for
+74  | Mean\_Freq\_Body\_Gyro\_Magnitude\_Mean             | mean of FFT frequency for body gyroscope magnitude mean
+75  | Mean\_Freq\_Body\_Gyro\_Magnitude\_StdDev           | mean of FFT frequency for body gyroscope magnitude std dev
+76  | Mean\_Freq\_Body\_Gyro\_Magnitude\_MeanFreq         | mean of FFT frequency for body gyroscope magnitude mean frequency
+77  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of FFT frequency for body gyroscope jerk magnitude mean
+78  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of FFT frequency for body gyroscope jerk magnitude std dev
+79  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_MeanFreq   | mean of FFT frequency for body gyroscope jerk magnitude mean frequency
