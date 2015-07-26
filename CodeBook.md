@@ -99,12 +99,14 @@ The first two columns are used for the summary grouping:
 <ol>
 <li> Subject\_ID - integer value that uniquley identifies the subject whose movements were measured
 <li> Activity\_ID - ineger value as factored variable that identifies the specific activity the subject engaged in. The activity values and names are:
-+ 1 WALKING
-+ 2 WALKING\_UPSTAIRS
-+ 3 WALKING\_DOWNSTAIRS
-+ 4 SITTING
-+ 5 STANDING
-+ 6 LAYING
+<ol> 
+<li> WALKING
+<li> WALKING\_UPSTAIRS
+<li> WALKING\_DOWNSTAIRS
+<li> SITTING
+<li> STANDING
+<li> LAYING
+<eol>
 <eol>  
   
 The following features are a renamed subset of the original features. Note that the values for these features are the means of the original mean and standard deviation measures grouped by Subject\_ID and Activity\_ID:
