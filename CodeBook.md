@@ -127,28 +127,28 @@ num | name                                                | description
 16  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_X            | mean of time for body accelerometer jerk std dev for x axis
 17  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of time for body accelerometer jerk std dev for y axis
 18  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of time for body accelerometer jerk std dev for z axis
-19  | Mean\_Time\_Body\_Gyro\_Mean\_X                     | mean of time for
-20  | Mean\_Time\_Body\_Gyro\_Mean\_Y                     | mean of time for
-21  | Mean\_Time\_Body\_Gyro\_Mean\_Z                     | mean of time for
-22  | Mean\_Time\_Body\_Gyro\_StdDev\_X                   | mean of time for
-23  | Mean\_Time\_Body\_Gyro\_StdDev\_Y                   | mean of time for
-24  | Mean\_Time\_Body\_Gyro\_StdDev\_Z                   | mean of time for
-25  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_X               | mean of time for
-26  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Y               | mean of time for
-27  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Z               | mean of time for
-28  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_X             | mean of time for
-29  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Y             | mean of time for 
-30  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Z             | mean of time for
-31  | Mean\_Time\_Body\_Accel\_Magnitude\_Mean            | mean of time for
-32  | Mean\_Time\_Body\_Accel\_Magnitude\_StdDev          | mean of time for
-33  | Mean\_Time\_Gravity\_Accel\_Magnitude\_Mean         | mean of time for
-34  | Mean\_Time\_Gravity\_Accel\_Magnitude\_StdDev       | mean of time for
-35  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of time for
-36  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of time for
-37  | Mean\_Time\_Body\_Gyro\_Magnitude\_Mean             | mean of time for   
-38  | Mean\_Time\_Body\_Gyro\_Magnitude\_StdDev           | mean of time for
-39  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of time for
-40  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of time for
+19  | Mean\_Time\_Body\_Gyro\_Mean\_X                     | mean of time for body gyroscope mean for x axis
+20  | Mean\_Time\_Body\_Gyro\_Mean\_Y                     | mean of time for body gyroscope mean for y axis
+21  | Mean\_Time\_Body\_Gyro\_Mean\_Z                     | mean of time for body gyroscope mean for z axis
+22  | Mean\_Time\_Body\_Gyro\_StdDev\_X                   | mean of time for body gyroscope std dev for x axis
+23  | Mean\_Time\_Body\_Gyro\_StdDev\_Y                   | mean of time for body gyroscope std dev for y axis
+24  | Mean\_Time\_Body\_Gyro\_StdDev\_Z                   | mean of time for body gyroscope std dev for z axis
+25  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_X               | mean of time for body gyroscope jerk mean for x axis
+26  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Y               | mean of time for body gyroscope jerk mean for y axis
+27  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Z               | mean of time for body gyroscope jerk mean for z axis
+28  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_X             | mean of time for body gyroscope jerk std dev for x axis
+29  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Y             | mean of time for body gyroscope jerk std dev for y axis
+30  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Z             | mean of time for body gyroscope jerk std dev for z axis
+31  | Mean\_Time\_Body\_Accel\_Magnitude\_Mean            | mean of time for body accelerometer magnitude mean
+32  | Mean\_Time\_Body\_Accel\_Magnitude\_StdDev          | mean of time for body accelerometer magnitude std dev
+33  | Mean\_Time\_Gravity\_Accel\_Magnitude\_Mean         | mean of time for gravity accelerometer magnitude mean
+34  | Mean\_Time\_Gravity\_Accel\_Magnitude\_StdDev       | mean of time for gravity accelerometer magnitude std dev
+35  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of time for body accelerometer jerk magnitude mean
+36  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of time for body accelerometer jerk magnitude std dev
+37  | Mean\_Time\_Body\_Gyro\_Magnitude\_Mean             | mean of time for body gyroscope magnitude mean 
+38  | Mean\_Time\_Body\_Gyro\_Magnitude\_StdDev           | mean of time for body gyroscope magnitude std dev
+39  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of time for body gyroscope jerk magnitude mean
+40  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of time for body gyroscope jerk magnitude std dev
 41  | Mean\_Freq\_Body\_Accel\_Mean\_X                    | mean of FFT frequency for
 42  | Mean\_Freq\_Body\_Accel\_Mean\_Y                    | mean of FFT frequency for
 43  | Mean\_Freq\_Body\_Accel\_Mean\_Z                    | mean of FFT frequency for
