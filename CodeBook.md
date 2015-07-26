@@ -1,6 +1,6 @@
 This code book describes the contents of the tidy data created for the course project in the Johns Hopkins Univertisity MOOC course "Getting and Cleaning Data". The feature set (columns) for the tidy data set is a subset of the features provided in the Human Activity data set obtained from: <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
-In order to understand the TidyDataSet provided for this course project, we must first understand the original Human Activity study and measures that were provided as input to the course project. The following decriptions are from the original files provided, and following that will be a description of the TidyDataSet.   
+In order to understand the TidyDataSet provided for this course project, we must first understand the original Human Activity study and measures that were provided as input to the course project. The following decriptions are from the original readme and feautues information files provided. Following that will be a description of the TidyDataSet.   
 
 # From the Human Activity README.txt
 
@@ -149,27 +149,27 @@ num | name                                                | description
 38  | Mean\_Time\_Body\_Gyro\_Magnitude\_StdDev           | mean of time for body gyroscope magnitude std dev
 39  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of time for body gyroscope jerk magnitude mean
 40  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of time for body gyroscope jerk magnitude std dev
-41  | Mean\_Freq\_Body\_Accel\_Mean\_X                    | mean of FFT frequency for
-42  | Mean\_Freq\_Body\_Accel\_Mean\_Y                    | mean of FFT frequency for
-43  | Mean\_Freq\_Body\_Accel\_Mean\_Z                    | mean of FFT frequency for
-44  | Mean\_Freq\_Body\_Accel\_StdDev\_X                  | mean of FFT frequency for
-45  | Mean\_Freq\_Body\_Accel\_StdDev\_Y                  | mean of FFT frequency for
-46  | Mean\_Freq\_Body\_Accel\_StdDev\_Z                  | mean of FFT frequency for
-47  | Mean\_Freq\_Body\_Accel\_MeanFreq\_X                | mean of FFT frequency for
-48  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Y                | mean of FFT frequency for
-49  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Z                | mean of FFT frequency for
-50  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_X              | mean of FFT frequency for
-51  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Y              | mean of FFT frequency for
-52  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Z              | mean of FFT frequency for
-53  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_X            | mean of FFT frequency for
-54  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of FFT frequency for
-55  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of FFT frequency for
-56  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_X          | mean of FFT frequency for
-57  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Y          | mean of FFT frequency for 
-58  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Z          | mean of FFT frequency for
-59  | Mean\_Freq\_Body\_Gyro\_Mean\_X                     | mean of FFT frequency for
-60  | Mean\_Freq\_Body\_Gyro\_Mean\_Y                     | mean of FFT frequency for
-61  | Mean\_Freq\_Body\_Gyro\_Mean\_Z                     | mean of FFT frequency for
+41  | Mean\_Freq\_Body\_Accel\_Mean\_X                    | mean of FFT frequency for body accelerometer mean for x axis
+42  | Mean\_Freq\_Body\_Accel\_Mean\_Y                    | mean of FFT frequency for body accelerometer mean for y axis
+43  | Mean\_Freq\_Body\_Accel\_Mean\_Z                    | mean of FFT frequency for body accelerometer mean for z axis
+44  | Mean\_Freq\_Body\_Accel\_StdDev\_X                  | mean of FFT frequency for body accelerometer std dev for x axis
+45  | Mean\_Freq\_Body\_Accel\_StdDev\_Y                  | mean of FFT frequency for body accelerometer std dev for y axis
+46  | Mean\_Freq\_Body\_Accel\_StdDev\_Z                  | mean of FFT frequency for body accelerometer std dev for z axis
+47  | Mean\_Freq\_Body\_Accel\_MeanFreq\_X                | mean of FFT frequency for body accelerometer mean frequency for x axis
+48  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Y                | mean of FFT frequency for body accelerometer mean frequency for y axis
+49  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Z                | mean of FFT frequency for body accelerometer mean frequency for z axis
+50  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_X              | mean of FFT frequency for body accelerometer jerk mean for x axis
+51  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Y              | mean of FFT frequency for body accelerometer jerk mean for y axis
+52  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Z              | mean of FFT frequency for body accelerometer jerk mean for z axis
+53  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_X            | mean of FFT frequency for body accelerometer jerk std dev for x axis
+54  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of FFT frequency for body accelerometer jerk std dev for y axis
+55  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of FFT frequency for body accelerometer jerk std dev for z axis
+56  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_X          | mean of FFT frequency for body accelerometer jerk mean frequency for x axis
+57  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Y          | mean of FFT frequency for body accelerometer jerk mean frequency for y axis 
+58  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Z          | mean of FFT frequency for body accelerometer jerk mean frequency for z axis
+59  | Mean\_Freq\_Body\_Gyro\_Mean\_X                     | mean of FFT frequency for body gyroscope mean for x axis
+60  | Mean\_Freq\_Body\_Gyro\_Mean\_Y                     | mean of FFT frequency for body gyroscope mean for y axis
+61  | Mean\_Freq\_Body\_Gyro\_Mean\_Z                     | mean of FFT frequency for body gyroscope mean for z axis
 62  | Mean\_Freq\_Body\_Gyro\_StdDev\_X                   | mean of FFT frequency for
 63  | Mean\_Freq\_Body\_Gyro\_StdDev\_Y                   | mean of FFT frequency for
 64  | Mean\_Freq\_Body\_Gyro\_StdDev\_Z                   | mean of FFT frequency for
