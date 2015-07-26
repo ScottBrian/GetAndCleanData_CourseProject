@@ -121,12 +121,12 @@ num | name                                                | description
 10  | Mean\_Time\_Gravity\_Accel\_StdDev\_X               | mean of time for gravity accelerometer std dev for x axis
 11  | Mean\_Time\_Gravity\_Accel\_StdDev\_Y               | mean of time for gravity accelerometer std dev for y axis 
 12  | Mean\_Time\_Gravity\_Accel\_StdDev\_Z               | mean of time for gravity accelerometer std dev for z axis
-13  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_X              | mean of time for
-14  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Y              | mean of time for
-15  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Z              | mean of time for
-16  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_X            | mean of time for
-17  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of time for
-18  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of time for
+13  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_X              | mean of time for body accelerometer jerk mean for x axis
+14  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Y              | mean of time for body accelerometer jerk mean for y axis
+15  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Z              | mean of time for body accelerometer jerk mean for z axis
+16  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_X            | mean of time for body accelerometer jerk std dev for x axis
+17  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of time for body accelerometer jerk std dev for y axis
+18  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of time for body accelerometer jerk std dev for z axis
 19  | Mean\_Time\_Body\_Gyro\_Mean\_X                     | mean of time for
 20  | Mean\_Time\_Body\_Gyro\_Mean\_Y                     | mean of time for
 21  | Mean\_Time\_Body\_Gyro\_Mean\_Z                     | mean of time for
