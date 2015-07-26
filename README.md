@@ -15,12 +15,12 @@ Note that the TidyDataSet linked to from the assignment page is unformatted and 
 fileUrl <- "the url for TidyDataSet on Amazon"  
 download.file(fileUrl, destfile = "./theTidyDS")  
 TidyDS <- read.table("./theTidyDS",header=TRUE)  
-head(TidyDS,8) # first 8 rows properly formated  
+head(TidyDS,8)  # first 8 rows properly formated  
 
-The tidy data set is a wide format data frame with 180 rows and 81 columns. The columns (features), are described in the CodeBook.md. The wide format tidy data set satisfies the tidy data set requirments because:
-1. each variable that is measured is in one column     
-2. each column is named with a meaning and descriptive name     
-3. each different observation is in a different row - note that each single observation is considered to be the set of movement measurments for one subject doing one activity.    
+The tidy data set is a wide format data frame with 180 rows and 81 columns. The columns (features), are described in the CodeBook.md. The wide format tidy data set satisfies the tidy data set requirments because:  
+1. each variable that is measured is in one column       
+2. each column is named with a meaning and descriptive name       
+3. each different observation is in a different row - note that each single observation is considered to be the set of movement measurments for one subject doing one activity.      
 
 ## run_analysis.R
 
