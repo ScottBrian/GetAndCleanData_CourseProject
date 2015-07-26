@@ -112,79 +112,79 @@ num | name                                                | description
 1   | Mean\_Time\_Body\_Accel\_Mean\_X                    | mean of time for body accelerometer mean for x axis
 2   | Mean\_Time\_Body\_Accel\_Mean\_Y                    | mean of time for body accelerometer mean for y axis
 3   | Mean\_Time\_Body\_Accel\_Mean\_Z                    | mean of time for body accelerometer mean for z axis 
-4   | Mean\_Time\_Body\_Accel\_StdDev\_X                  | mean of time for body accelerometer std dev for x axis  
-5   | Mean\_Time\_Body\_Accel\_StdDev\_Y                  | mean of time for body accelerometer std dev for y axis
-6   | Mean\_Time\_Body\_Accel\_StdDev\_Z                  | mean of time for body accelerometer std dev for z axis
+4   | Mean\_Time\_Body\_Accel\_StdDev\_X                  | mean of time for body accelerometer standard deviation for x axis  
+5   | Mean\_Time\_Body\_Accel\_StdDev\_Y                  | mean of time for body accelerometer standard deviation for y axis
+6   | Mean\_Time\_Body\_Accel\_StdDev\_Z                  | mean of time for body accelerometer standard deviation for z axis
 7   | Mean\_Time\_Gravity\_Accel\_Mean\_X                 | mean of time for gravity accelerometer mean for x axis
 8   | Mean\_Time\_Gravity\_Accel\_Mean\_Y                 | mean of time for gravity accelerometer mean for y axis
 9   | Mean\_Time\_Gravity\_Accel\_Mean\_Z                 | mean of time for gravity accelerometer mean for z axis
-10  | Mean\_Time\_Gravity\_Accel\_StdDev\_X               | mean of time for gravity accelerometer std dev for x axis
-11  | Mean\_Time\_Gravity\_Accel\_StdDev\_Y               | mean of time for gravity accelerometer std dev for y axis 
-12  | Mean\_Time\_Gravity\_Accel\_StdDev\_Z               | mean of time for gravity accelerometer std dev for z axis
+10  | Mean\_Time\_Gravity\_Accel\_StdDev\_X               | mean of time for gravity accelerometer standard deviation for x axis
+11  | Mean\_Time\_Gravity\_Accel\_StdDev\_Y               | mean of time for gravity accelerometer standard deviation for y axis 
+12  | Mean\_Time\_Gravity\_Accel\_StdDev\_Z               | mean of time for gravity accelerometer standard deviation for z axis
 13  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_X              | mean of time for body accelerometer jerk mean for x axis
 14  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Y              | mean of time for body accelerometer jerk mean for y axis
 15  | Mean\_Time\_Body\_Accel\_Jerk\_Mean\_Z              | mean of time for body accelerometer jerk mean for z axis
-16  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_X            | mean of time for body accelerometer jerk std dev for x axis
-17  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of time for body accelerometer jerk std dev for y axis
-18  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of time for body accelerometer jerk std dev for z axis
+16  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_X            | mean of time for body accelerometer jerk standard deviation for x axis
+17  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of time for body accelerometer jerk standard deviation for y axis
+18  | Mean\_Time\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of time for body accelerometer jerk standard deviation for z axis
 19  | Mean\_Time\_Body\_Gyro\_Mean\_X                     | mean of time for body gyroscope mean for x axis
 20  | Mean\_Time\_Body\_Gyro\_Mean\_Y                     | mean of time for body gyroscope mean for y axis
 21  | Mean\_Time\_Body\_Gyro\_Mean\_Z                     | mean of time for body gyroscope mean for z axis
-22  | Mean\_Time\_Body\_Gyro\_StdDev\_X                   | mean of time for body gyroscope std dev for x axis
-23  | Mean\_Time\_Body\_Gyro\_StdDev\_Y                   | mean of time for body gyroscope std dev for y axis
-24  | Mean\_Time\_Body\_Gyro\_StdDev\_Z                   | mean of time for body gyroscope std dev for z axis
+22  | Mean\_Time\_Body\_Gyro\_StdDev\_X                   | mean of time for body gyroscope standard deviation for x axis
+23  | Mean\_Time\_Body\_Gyro\_StdDev\_Y                   | mean of time for body gyroscope standard deviation for y axis
+24  | Mean\_Time\_Body\_Gyro\_StdDev\_Z                   | mean of time for body gyroscope standard deviation for z axis
 25  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_X               | mean of time for body gyroscope jerk mean for x axis
 26  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Y               | mean of time for body gyroscope jerk mean for y axis
 27  | Mean\_Time\_Body\_Gyro\_Jerk\_Mean\_Z               | mean of time for body gyroscope jerk mean for z axis
-28  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_X             | mean of time for body gyroscope jerk std dev for x axis
-29  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Y             | mean of time for body gyroscope jerk std dev for y axis
-30  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Z             | mean of time for body gyroscope jerk std dev for z axis
+28  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_X             | mean of time for body gyroscope jerk standard deviation for x axis
+29  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Y             | mean of time for body gyroscope jerk standard deviation for y axis
+30  | Mean\_Time\_Body\_Gyro\_Jerk\_StdDev\_Z             | mean of time for body gyroscope jerk standard deviation for z axis
 31  | Mean\_Time\_Body\_Accel\_Magnitude\_Mean            | mean of time for body accelerometer magnitude mean
-32  | Mean\_Time\_Body\_Accel\_Magnitude\_StdDev          | mean of time for body accelerometer magnitude std dev
+32  | Mean\_Time\_Body\_Accel\_Magnitude\_StdDev          | mean of time for body accelerometer magnitude standard deviation
 33  | Mean\_Time\_Gravity\_Accel\_Magnitude\_Mean         | mean of time for gravity accelerometer magnitude mean
-34  | Mean\_Time\_Gravity\_Accel\_Magnitude\_StdDev       | mean of time for gravity accelerometer magnitude std dev
+34  | Mean\_Time\_Gravity\_Accel\_Magnitude\_StdDev       | mean of time for gravity accelerometer magnitude standard deviation
 35  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of time for body accelerometer jerk magnitude mean
-36  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of time for body accelerometer jerk magnitude std dev
+36  | Mean\_Time\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of time for body accelerometer jerk magnitude standard deviation
 37  | Mean\_Time\_Body\_Gyro\_Magnitude\_Mean             | mean of time for body gyroscope magnitude mean 
-38  | Mean\_Time\_Body\_Gyro\_Magnitude\_StdDev           | mean of time for body gyroscope magnitude std dev
+38  | Mean\_Time\_Body\_Gyro\_Magnitude\_StdDev           | mean of time for body gyroscope magnitude standard deviation
 39  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of time for body gyroscope jerk magnitude mean
-40  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of time for body gyroscope jerk magnitude std dev
+40  | Mean\_Time\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of time for body gyroscope jerk magnitude standard deviation
 41  | Mean\_Freq\_Body\_Accel\_Mean\_X                    | mean of FFT frequency for body accelerometer mean for x axis
 42  | Mean\_Freq\_Body\_Accel\_Mean\_Y                    | mean of FFT frequency for body accelerometer mean for y axis
 43  | Mean\_Freq\_Body\_Accel\_Mean\_Z                    | mean of FFT frequency for body accelerometer mean for z axis
-44  | Mean\_Freq\_Body\_Accel\_StdDev\_X                  | mean of FFT frequency for body accelerometer std dev for x axis
-45  | Mean\_Freq\_Body\_Accel\_StdDev\_Y                  | mean of FFT frequency for body accelerometer std dev for y axis
-46  | Mean\_Freq\_Body\_Accel\_StdDev\_Z                  | mean of FFT frequency for body accelerometer std dev for z axis
+44  | Mean\_Freq\_Body\_Accel\_StdDev\_X                  | mean of FFT frequency for body accelerometer standard deviation for x axis
+45  | Mean\_Freq\_Body\_Accel\_StdDev\_Y                  | mean of FFT frequency for body accelerometer standard deviation for y axis
+46  | Mean\_Freq\_Body\_Accel\_StdDev\_Z                  | mean of FFT frequency for body accelerometer standard deviation for z axis
 47  | Mean\_Freq\_Body\_Accel\_MeanFreq\_X                | mean of FFT frequency for body accelerometer mean frequency for x axis
 48  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Y                | mean of FFT frequency for body accelerometer mean frequency for y axis
 49  | Mean\_Freq\_Body\_Accel\_MeanFreq\_Z                | mean of FFT frequency for body accelerometer mean frequency for z axis
 50  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_X              | mean of FFT frequency for body accelerometer jerk mean for x axis
 51  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Y              | mean of FFT frequency for body accelerometer jerk mean for y axis
 52  | Mean\_Freq\_Body\_Accel\_Jerk\_Mean\_Z              | mean of FFT frequency for body accelerometer jerk mean for z axis
-53  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_X            | mean of FFT frequency for body accelerometer jerk std dev for x axis
-54  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of FFT frequency for body accelerometer jerk std dev for y axis
-55  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of FFT frequency for body accelerometer jerk std dev for z axis
+53  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_X            | mean of FFT frequency for body accelerometer jerk standard deviation for x axis
+54  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Y            | mean of FFT frequency for body accelerometer jerk standard deviation for y axis
+55  | Mean\_Freq\_Body\_Accel\_Jerk\_StdDev\_Z            | mean of FFT frequency for body accelerometer jerk standard deviation for z axis
 56  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_X          | mean of FFT frequency for body accelerometer jerk mean frequency for x axis
 57  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Y          | mean of FFT frequency for body accelerometer jerk mean frequency for y axis 
 58  | Mean\_Freq\_Body\_Accel\_Jerk\_MeanFreq\_Z          | mean of FFT frequency for body accelerometer jerk mean frequency for z axis
 59  | Mean\_Freq\_Body\_Gyro\_Mean\_X                     | mean of FFT frequency for body gyroscope mean for x axis
 60  | Mean\_Freq\_Body\_Gyro\_Mean\_Y                     | mean of FFT frequency for body gyroscope mean for y axis
 61  | Mean\_Freq\_Body\_Gyro\_Mean\_Z                     | mean of FFT frequency for body gyroscope mean for z axis
-62  | Mean\_Freq\_Body\_Gyro\_StdDev\_X                   | mean of FFT frequency for body gyroscope std dev for x axis
-63  | Mean\_Freq\_Body\_Gyro\_StdDev\_Y                   | mean of FFT frequency for body gyroscope std dev for y axis
-64  | Mean\_Freq\_Body\_Gyro\_StdDev\_Z                   | mean of FFT frequency for body gyroscope std dev for z axis
+62  | Mean\_Freq\_Body\_Gyro\_StdDev\_X                   | mean of FFT frequency for body gyroscope standard deviation for x axis
+63  | Mean\_Freq\_Body\_Gyro\_StdDev\_Y                   | mean of FFT frequency for body gyroscope standard deviation for y axis
+64  | Mean\_Freq\_Body\_Gyro\_StdDev\_Z                   | mean of FFT frequency for body gyroscope standard deviation for z axis
 65  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_X                 | mean of FFT frequency for body gyroscope mean frequency for x axis
 66  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Y                 | mean of FFT frequency for body gyroscope mean frequency for y axis
 67  | Mean\_Freq\_Body\_Gyro\_MeanFreq\_Z                 | mean of FFT frequency for body gyroscope mean frequency for z axis
 68  | Mean\_Freq\_Body\_Accel\_Magnitude\_Mean            | mean of FFT frequency for body accelerometer magnitude mean 
-69  | Mean\_Freq\_Body\_Accel\_Magnitude\_StdDev          | mean of FFT frequency for body accelerometer magnitude std dev 
+69  | Mean\_Freq\_Body\_Accel\_Magnitude\_StdDev          | mean of FFT frequency for body accelerometer magnitude standard deviation
 70  | Mean\_Freq\_Body\_Accel\_Magnitude\_MeanFreq        | mean of FFT frequency for body accelerometer magnitude mean frequency     
 71  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_Mean      | mean of FFT frequency for body accelerometer jerk magnitude mean 
-72  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of FFT frequency for body accelerometer jerk magnitude std dev 
+72  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_StdDev    | mean of FFT frequency for body accelerometer jerk magnitude standard deviation 
 73  | Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_MeanFreq  | mean of FFT frequency for body accelerometer jerk magnitude mean frequency   
 74  | Mean\_Freq\_Body\_Gyro\_Magnitude\_Mean             | mean of FFT frequency for body gyroscope magnitude mean
-75  | Mean\_Freq\_Body\_Gyro\_Magnitude\_StdDev           | mean of FFT frequency for body gyroscope magnitude std dev
+75  | Mean\_Freq\_Body\_Gyro\_Magnitude\_StdDev           | mean of FFT frequency for body gyroscope magnitude standard deviation
 76  | Mean\_Freq\_Body\_Gyro\_Magnitude\_MeanFreq         | mean of FFT frequency for body gyroscope magnitude mean frequency
 77  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_Mean       | mean of FFT frequency for body gyroscope jerk magnitude mean
-78  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of FFT frequency for body gyroscope jerk magnitude std dev
+78  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_StdDev     | mean of FFT frequency for body gyroscope jerk magnitude standard deviation
 79  | Mean\_Freq\_Body\_Gyro\_Jerk\_Magnitude\_MeanFreq   | mean of FFT frequency for body gyroscope jerk magnitude mean frequency
