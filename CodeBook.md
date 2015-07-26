@@ -35,26 +35,26 @@ These are the first two columns which are used for the summary grouping:
 
 The following features are a renamed subset of the original features. Note that the values for these features are the means of the original mean and standard deviation measures grouped by Subject\_ID and Activity\_ID:
 
-Time\_Body\_Accel\_Mean\_X
-Time\_Body\_Accel\_Mean\_Y
-Time\_Body\_Accel\_Mean\_Z
-Time\_Body\_Accel\_StdDev\_X
-Time\_Body\_Accel\_StdDev\_Y
-Time\_Body\_Accel\_StdDev\_Z
-Time\_Gravity\_Accel\_Mean\_X
-Time\_Gravity\_Accel\_Mean\_Y
-Time\_Gravity\_Accel\_Mean\_Z
-Time\_Gravity\_Accel\_StdDev\_X
-Time\_Gravity\_Accel\_StdDev\_Y
-Time\_Gravity\_Accel\_StdDev\_Z
-Time\_Body\_Accel\_Jerk\_Mean\_X
-Time\_Body\_Accel\_Jerk\_Mean\_Y
-Time\_Body\_Accel\_Jerk\_Mean\_Z
-Time\_Body\_Accel\_Jerk\_StdDev\_X
-Time\_Body\_Accel\_Jerk\_StdDev\_Y
-Time\_Body\_Accel\_Jerk\_StdDev\_Z
-Time\_Body\_Gyro\_Mean\_X
-Time\_Body\_Gyro\_Mean\_Y
+1. Time\_Body\_Accel\_Mean\_X
+2. Time\_Body\_Accel\_Mean\_Y
+3. Time\_Body\_Accel\_Mean\_Z
+4. Time\_Body\_Accel\_StdDev\_X
+5. Time\_Body\_Accel\_StdDev\_Y
+6. Time\_Body\_Accel\_StdDev\_Z
+7. Time\_Gravity\_Accel\_Mean\_X
+8. Time\_Gravity\_Accel\_Mean\_Y
+9. Time\_Gravity\_Accel\_Mean\_Z
+10. Time\_Gravity\_Accel\_StdDev\_X
+11. Time\_Gravity\_Accel\_StdDev\_Y
+12. Time\_Gravity\_Accel\_StdDev\_Z
+13. Time\_Body\_Accel\_Jerk\_Mean\_X
+14. Time\_Body\_Accel\_Jerk\_Mean\_Y
+15. Time\_Body\_Accel\_Jerk\_Mean\_Z
+16. Time\_Body\_Accel\_Jerk\_StdDev\_X
+17. Time\_Body\_Accel\_Jerk\_StdDev\_Y
+18. Time\_Body\_Accel\_Jerk\_StdDev\_Z
+19. Time\_Body\_Gyro\_Mean\_X
+20. Time\_Body\_Gyro\_Mean\_Y
 Time\_Body\_Gyro\_Mean\_Z
 Time\_Body\_Gyro\_StdDev\_X
 Time\_Body\_Gyro\_StdDev\_Y
