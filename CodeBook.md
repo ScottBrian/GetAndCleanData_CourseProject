@@ -89,6 +89,9 @@ After obtaining the subset of names from the original feature list, the feature 
 ## units of measurement
 For the tidy data set, the measures are means of the original data and thus inherit the original data units of measure. The original data as provided, however, was normalized over the closed interval [-1,+1] and therefore no longer represents the original units of measure. Thus, the tidy data set units of measures are means of normalized means and standard deviations.    
 
+
+## list of features (columns)  
+
 The following features (columns) make up the tidy data set:
 
 The first two columns which are used for the summary grouping:
