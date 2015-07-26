@@ -68,12 +68,12 @@ run_analysis <- function() {
   #
   cols_to_use <- filter(cols_to_use, grepl("-mean|-std",col_name)) # get only the mean and std dev columns
   cols_to_use[,"col_name"] <- sub("\\(\\)","",cols_to_use[,col_name]) # remove parens from column names
-  cols_to_use[,"col_name"] <- sub("^t","Time_",cols_to_use[,col_name]) # change t to Time_
+  cols_to_use[,"col_name"] <- sub("^t","Mean_Time_",cols_to_use[,col_name]) # change t to Mean_Time_
   cols_to_use[,"col_name"] <- sub("Acc","_Accel",cols_to_use[,col_name]) # change Acc to _Accel
   cols_to_use[,"col_name"] <- sub("-mean","_Mean",cols_to_use[,col_name]) #change -mean to _Mean
   cols_to_use[,"col_name"] <- sub("-std","_StdDev",cols_to_use[,col_name]) # change -std to _StdDev
   cols_to_use[,"col_name"] <- sub("Mag","_Magnitude",cols_to_use[,col_name]) # change Mag to _Magnitude
-  cols_to_use[,"col_name"] <- sub("^f","Freq_",cols_to_use[,col_name]) # change f to Freq_
+  cols_to_use[,"col_name"] <- sub("^f","Mean_Freq_",cols_to_use[,col_name]) # change f to Mean_Freq_
   cols_to_use[,"col_name"] <- sub("BodyBody","Body",cols_to_use[,col_name]) # change double Body to single Body
   cols_to_use[,"col_name"] <- sub("Jerk","_Jerk",cols_to_use[,col_name]) # put underscore in front of Jerk
   cols_to_use[,"col_name"] <- sub("Gyro","_Gyro",cols_to_use[,col_name]) # put underscore in front of Gyro
