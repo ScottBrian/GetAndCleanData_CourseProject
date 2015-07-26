@@ -101,17 +101,13 @@ The first two columns which are used for the summary grouping:
 
 The following features are a renamed subset of the original features. Note that the values for these features are the means of the original mean and standard deviation measures grouped by Subject\_ID and Activity\_ID:
 
-num | name                                | description
-----|-------------------------------------|------------------------------------
-1   | Mean\_Time\_Body\_Accel\_Mean\_X    | mean of the body accelerometer mean of the x axis
-2   | Mean\_Time\_Body\_Accel\_Mean\_Y    | mean of the body accelerometer mean of the y axis
+num | name                                                | description
+----|-----------------------------------------------------|------------------------------------
+1   | Mean\_Time\_Body\_Accel\_Mean\_X                    | mean of the body accelerometer mean of the x axis
+2   | Mean\_Time\_Body\_Accel\_Mean\_Y                    | mean of the body accelerometer mean of the y axis
+3   | Mean\_Time\_Body\_Accel\_Mean\_Z                    | mean of the body accelerometer mean of the z axis 
 
 
-
-
-1. Mean\_Time\_Body\_Accel\_Mean\_X
-2. Mean\_Time\_Body\_Accel\_Mean\_Y
-3. Mean\_Time\_Body\_Accel\_Mean\_Z
 4. Mean\_Time\_Body\_Accel\_StdDev\_X
 5. Mean\_Time\_Body\_Accel\_StdDev\_Y
 6. Mean\_Time\_Body\_Accel\_StdDev\_Z
@@ -181,7 +177,7 @@ num | name                                | description
 70. Mean\_Freq\_Body\_Accel\_Magnitude\_MeanFreq
 71. Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_Mean
 72. Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_StdDev
-73. Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_MeanFreq
+73. Mean\_Freq\_Body\_Accel\_Jerk\_Magnitude\_MeanFreq  
 74. Mean\_Freq\_Body\_Gyro\_Magnitude\_Mean
 75. Mean\_Freq\_Body\_Gyro\_Magnitude\_StdDev
 76. Mean\_Freq\_Body\_Gyro\_Magnitude\_MeanFreq
