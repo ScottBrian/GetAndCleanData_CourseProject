@@ -75,7 +75,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 # Tidy Data Set Decription  
 
-## critera for choosing the columns   
+## critera for choosing the features (columns)     
 
 For the tidy data set, the subset of features were obtained from the source data set by including only those features that are mean or standard deviation measures, meaning any of the original names that contained either "-mean" or "-std". Note that the following angle features were not chose even though they contain "mean" in their names because they are not mean values but instead used mean values to create them.
 * angle(tBodyAccMean,gravity)
