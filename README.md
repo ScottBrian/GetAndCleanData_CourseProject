@@ -1,7 +1,7 @@
 # GetAndCleanData_CourseProject
 This Repo contains my course project for the Johns Hopkins University MOOC "Getting and Cleaning Data"
 
-This README file describes the course project for the Johns Hopkins University MOOC "Getting and Cleaning Data". The project consist of starting with a provided data set with several files, combining those files, and producing a tidy set set. 
+This README file describes the course project for the Johns Hopkins University MOOC "Getting and Cleaning Data". The project consist of starting with a provided data set with several files, combining those files, and producing a tidy data set. 
 
 The tidy data set is linked to from the project assignment page.   
 The files included in the repo are:  
@@ -10,17 +10,17 @@ The files included in the repo are:
 3. CodeBook.md - decribes the variables in the tidy data set    
 
 ## Tidy Data Set
-Note that the TidyDataSet linked to from the assignment page is unformatted and difficult to understand its structure. In order to see it in its proper format, please copy the url and use the following code is R:
+Note that the TidyDataSet linked to from the assignment page is unformatted and difficult to understand. To see it properly formatted, please copy the url and use the following code is R:
 
 fileUrl <- "the url for TidyDataSet on Amazon"
 download.file(fileUrl, destfile = "./theTidyDS")
 TidyDS <- read.table("./theTidyDS",header=TRUE)
-head(TidyDS,8) # comes out very nicely formated
+head(TidyDS,8) # first 8 rows properly formated
 
-The tidy data set is a wide format data frame with 180 rows and 81 columns. The columns, or features, are described in the CodeBook.md. The data frame itself is submitted in the assignment as a link to a text file that must be read into R using read.table in order to view it properly formatted. The wide format tidy data set satisfies the tidy data set requirments because:
-1. each variable that is measured is in one column   
-2. each column is named with a meaning and descriptive name   
-3. each different observation is in a different row - note that each single observation is considered to be the set of movement measurments for one subject doing one activity  
+The tidy data set is a wide format data frame with 180 rows and 81 columns. The columns (features), are described in the CodeBook.md. The wide format tidy data set satisfies the tidy data set requirments because:
+1. each variable that is measured is in one column     
+2. each column is named with a meaning and descriptive name     
+3. each different observation is in a different row - note that each single observation is considered to be the set of movement measurments for one subject doing one activity.    
 
 ## run_analysis.R
 
@@ -41,14 +41,15 @@ After reading in the files, the run_analysis.R script performs the following:
 2. Rename the selected column names in the columns selection list to be more descriptive and readable  
 3. Combine the test and train tables for the selected columns and rename the columns  
 4. Combine the subject and activity tables, and name the columns and activities  
-5. combine the big tables together, group by Subject_ID and Activity_ID, and summarize  
-   by mean to create and return the tidy data set  
+5. Combine the big tables together, group by Subject_ID and Activity_ID, summarize  
+   by mean to create the tidy data table, and then sort it by Subject_ID and Activity_ID    
+6. Return the tidy data set.    
 
 Note that in order to run the run_analysis.R script, the following must be done:  
 1. The Human Activity data set must be obtained from the following web address:   
        https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 2. After downloading the zip file, it must be unzipped and the top level folder "UCI HAR Dataset"  
-   must be placed in the working directory where the run_analysis.R script will be run  
+   must be placed in the working directory where the run_analysis.R script will be run.  
 
 Use of this dataset in publications must be acknowledged by referencing the following publication [1]   
  
